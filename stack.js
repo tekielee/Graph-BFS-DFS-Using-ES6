@@ -5,7 +5,7 @@ class Stack {
 	}
 	
 	isEmpty() {
-		if(this.stack === 'undefined' || this.stack === null || this.stack === 0) {
+		if(this.stack === undefined || this.stack === null || this.stack.length === 0) {
 			return true;
 		} else {
 			return false;

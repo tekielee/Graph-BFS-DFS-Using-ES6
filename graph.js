@@ -67,6 +67,7 @@ function DFS(graph, start, visited) {
 	return path1;
 }
 
+console.log('');
 
 let path1 = DFS(graph, 1, visited);
 while(!path1.isEmpty()) {
